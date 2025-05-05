@@ -19,18 +19,18 @@ st.markdown(
 <style>
        .stButton>button {
            background-color: #1e90ff;
-           color: white;
+           color: blue;
            font-size: 16px;
            border-radius: 10px;
            padding: 0.75em 2em;
        }
        .stRadio label {
-           font-size: 18px;
+           font-size: 36px;
        }
        .score {
            text-align:center;
-           font-size:18px;
-           color:#28a745;
+           font-size:36px;
+           color:# 66fff;
            margin-bottom:10px;
        }
        .vie {
@@ -48,9 +48,9 @@ st.markdown(f"<div class='vie'>Vies restantes : {st.session_state.vies}</div>", 
 # Données des questions
 questions = [
    {
-       "question": "Quel pays a remporté la Coupe du Monde 2018 ?",
-       "options": ["", "France", "Croatie", "Brésil"],
-       "réponse": "France"
+       "question": "Quel pays a remporté la Coupe du Monde 2014 ?",
+       "options": ["", "France", "Allemagne", "Brésil"],
+       "réponse": "Allemagne"
    },
    {
        "question": "Quel joueur a le plus de Ballon d'Or (jusqu'en 2024) ?",
@@ -58,9 +58,9 @@ questions = [
        "réponse": "Lionel Messi"
    },
    {
-       "question": "Combien de joueurs y a-t-il dans une équipe de football sur le terrain ?",
-       "options": ["", "9", "10", "11"],
-       "réponse": "11"
+       "question": " Quel est le pays qui a remporté le plus de coupe du monde ?",
+       "options": ["", "Brezil", "France", "Allemagne"],
+       "réponse": "Brezil"
    },
    {
        "question": "Quel club a remporté le plus de Ligue des Champions ?",
@@ -83,9 +83,9 @@ questions = [
        "réponse": "Camp Nou"
    },
    {
-       "question": "Quel est le poste d’un gardien ?",
-       "options": ["", "Attaquant", "Défenseur", "Gardien"],
-       "réponse": "Gardien"
+       "question": " Qui est nome la pulga ?",
+       "options": ["", "Messi", "Ronaldinho", "Zidane"],
+       "réponse": "Messi"
    },
    {
        "question": "Quel joueur brésilien porte souvent le numéro 10 ?",
@@ -93,9 +93,9 @@ questions = [
        "réponse": "Neymar"
    },
    {
-       "question": "Combien de minutes dure un match normal ?",
-       "options": ["", "60", "90", "120"],
-       "réponse": "90"
+       "question": "Qui a gagner le balon d'or en 2011 ?",
+       "options": ["", " Cristiano Ronaldo, " Lionel Messi ", "Robert Lewandowski"],
+       "réponse": "Lionel Messi"
    }
 ]
 # Jeu
